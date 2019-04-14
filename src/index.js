@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App'
 
-const Index = () => <h1>Welcome to my React Boilerplate</h1>
-
-ReactDOM.render(<Index />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
