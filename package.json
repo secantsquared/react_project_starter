@@ -1,7 +1,7 @@
 {
   "name": "boris-react-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starting point for general React-based projects.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development"
@@ -10,8 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/ryanboris/boris-react-boilerplate.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react boilerplate",
+    "webpack",
+    "babel"
+  ],
+  "author": "Ryan Boris",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryanboris/boris-react-boilerplate/issues"
@@ -22,6 +26,10 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1"
