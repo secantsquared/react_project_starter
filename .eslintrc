@@ -20,5 +20,9 @@
   },
   "rules": {
     "semi": 0
-  }
+  },
+  "react/jsx-closing-bracket-location": [
+    1,
+    "after-props"
+  ]
 }

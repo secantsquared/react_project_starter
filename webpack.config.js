@@ -47,7 +47,7 @@ const config = {
   },
   plugins: [new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)],
   devServer: {
-    contentBase: './dist'
+    contentBase: path.join(__dirname, 'public')
   }
 }
 
